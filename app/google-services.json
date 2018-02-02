@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "550825832412",
+    "firebase_url": "https://easytrip-76caa.firebaseio.com",
+    "project_id": "easytrip-76caa",
+    "storage_bucket": "easytrip-76caa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:550825832412:android:10aeccf9b389b57a",
+        "android_client_info": {
+          "package_name": "com.example.manggar_laptop.easytrip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "550825832412-98ons29hs45fc6t0k49jf62r5lre84j0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.manggar_laptop.easytrip",
+            "certificate_hash": "00534d15127f07ee093cebb0d88fa4025f1e829d"
+          }
+        },
+        {
+          "client_id": "550825832412-p4iphdgl6hse0bhp57c99voblqgcu61t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBM4I3ni_D9QTMZ4U9CKQHOksdGXlgmTNo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "550825832412-p4iphdgl6hse0bhp57c99voblqgcu61t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

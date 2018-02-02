@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.manggar_laptop.easytrip.DashboardActivity">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SELAMAT DATANG ADMIN"
+        android:textAlignment="center"
+        android:textSize="20dp"/>
+
+    <Button
+        android:id="@+id/btnMenu"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        android:layout_marginBottom="26dp"
+        android:layout_above="@+id/btnLogout"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="328dp"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/btnMenu"
+        android:layout_alignStart="@+id/btnMenu"
+        android:layout_marginBottom="13dp" />
+
+
+
+
+</RelativeLayout>

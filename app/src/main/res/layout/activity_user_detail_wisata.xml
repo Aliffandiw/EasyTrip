@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="30dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingBottom="10dp"
+    android:background="@drawable/travel_bg"
+    tools:context="com.example.manggar_laptop.easytrip.UserDetailWisataActivity">
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DETAIL PARIWISATA"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:id="@+id/txtNamaWisata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/judul"
+        android:text="Nama Wisata"/>
+
+    <TextView
+        android:id="@+id/txtLokasi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtNamaWisata"
+        android:text="Lokasi"
+        android:layout_marginTop="20dp"/>
+
+    <TextView
+        android:id="@+id/txtTiket"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtLokasi"
+        android:text="Tiket Masuk"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/btnMap6"
+        style="@style/Base.Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtTiket"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="49dp"
+        android:text="MAP" />
+
+
+
+</RelativeLayout>

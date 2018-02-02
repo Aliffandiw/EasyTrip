@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="20dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginBottom="20dp">
+
+    <TextView
+        android:id="@+id/txtWisata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Wisata"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:id="@+id/txtLokasi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lokasi"
+        android:layout_below="@+id/txtWisata"
+        />
+
+    <TextView
+        android:id="@+id/txtTiket"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TIket"
+        android:layout_below="@+id/txtLokasi"
+        />
+
+
+
+</RelativeLayout>
